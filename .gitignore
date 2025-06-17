@@ -1,0 +1,4 @@
+__pycache__
+.ruff_cache
+.venv
+mandarin_pronunciation_checker.egg-info
