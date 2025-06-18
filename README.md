@@ -54,6 +54,10 @@ Once the program is running, you will be prompted to press enter to start record
 
 https://github.com/user-attachments/assets/178036db-9667-481a-9547-eede54d755d6
 
-### Using with Anki
+### Use with flashcard applications
 
-You can use this tool to check your pronunciation of Mandarin phrases in Anki or other flashcard applications by running the program side by side with your flashcard app.
+This tool is helpful when used alongside flashcard applications like Anki. Run program side by side with your flashcard app of choice.
+
+<img width="1280" alt="anki" src="https://github.com/user-attachments/assets/17a7c464-94d4-44f6-a91c-3982aec29c9b" />
+
+
