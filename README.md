@@ -1,6 +1,6 @@
 # Mandarin Pronunciation Checker
 
-This tool helps check the accuracy of the pronunciation of Mandarin Chinese. It is built using Google's TTS (Text-to-Speech) API to generate Hanzi characters, the `xpinyin` Python library to show the pinyi annotations, and the public MyMemory API to return the English translation. The checker is implemented as a simple command line interface and using your device microphone for recording audio.
+This tool helps check the accuracy of the pronunciation of Mandarin Chinese. It is built using Google's TTS (Text-to-Speech) API to generate Hanzi characters, the `xpinyin` Python library to show the pinyi annotations, and the public MyMemory API to return the English translation. The checker is currently implemented as a basic command line interface and using your device microphone for recording audio.
 
 ⚠️ This project is experimental and its performance dependends heavily on the underlying libraries.
 
