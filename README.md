@@ -6,11 +6,12 @@ This tool helps check the accuracy of the pronunciation of Mandarin Chinese. It 
 
 ## Requirements & Dependencies
 - Python 3.x
-- uv
-- pyaudio
-- requests
-- speechrecognition
-- xpinyin
+- `uv`
+- `pyaudio`
+- `requests`
+- `speechrecognition`
+- `xpinyin`
+- `chinesenumberutils`
 - [MyMemory API](https://mymemory.translated.net/doc/)
 
 Note this has only been tested on MacOS.
@@ -47,8 +48,12 @@ brew install portaudio
 ./start
 ```
 
+## How to use
 
+Once the program is running, you will be prompted to press enter to start recording your first pronunciation. You can then say the Mandarin phrase you want to check. The program will listen for your audio input until you press enter again to stop recording. After stopping the recording, the program will process your audio and return the Hanzi characters, pinyin annotations, and English translation of the phrase you pronounced.
 
 https://github.com/user-attachments/assets/178036db-9667-481a-9547-eede54d755d6
 
+### Using with Anki
 
+You can use this tool to check your pronunciation of Mandarin phrases in Anki or other flashcard applications by running the program side by side with your flashcard app.
