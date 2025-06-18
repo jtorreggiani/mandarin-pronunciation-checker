@@ -36,7 +36,7 @@ source venv/bin/activate
 uv sync
 ```
 
-4.  Install `pyaudio` if not already installed. You can use Homebrew on MacOS:
+4.  Install `portaudio` if not already installed. You can use Homebrew on MacOS:
 
 ```bash
 brew install portaudio
@@ -60,4 +60,10 @@ This tool is helpful when used alongside flashcard applications like Anki. Run p
 
 <img width="1280" alt="anki" src="https://github.com/user-attachments/assets/17a7c464-94d4-44f6-a91c-3982aec29c9b" />
 
+## TODO
+
+- [ ] Create a GUI application for running the system
+- [ ] Add support for additional speech to text services
+- [ ] Add support for additional translation services
+- [ ] Add scoring and AI notes about improving pronunciation
 
